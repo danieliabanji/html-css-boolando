@@ -48,12 +48,23 @@ div i{
 }
 .fixed{
     position: fixed ;
-    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--orange);
+    height: 50px;
+    z-index: 5;
 }
 /* fine navbar */
 
 /* main */
-
+main{
+    margin-top: 100px;
+}
+.container-card{
+    margin: 0 auto;
+    max-width: 1170px;
+}
 
 .card-flex{
     display: flex;
@@ -128,17 +139,17 @@ div i{
 }
 
 
-
-/* .heart{
-     position: absolute;
-    bottom: 30px;
-    text-align: center;
-    color: var(--red);
-     width: 100%;
-    display: none;
-}  */
 .col:hover .heart{
     color: var(--red);
+}
+.second{
+    display: none;
+}
+.col:hover .second{
+    display: inline-block;
+}
+.col:hover .first{
+    display: none;
 }
 /* footer */
 footer{
