@@ -21,6 +21,7 @@
 /* navbar */
 header{
     background-color: var(--orange) ;
+    
 }
 .flexnav{
     display: flex;
@@ -44,6 +45,10 @@ ul li a{
 div i{
     padding: 3px;
     color: #ffffff;
+}
+.fixed{
+    position: fixed ;
+    
 }
 /* fine navbar */
 
@@ -83,7 +88,6 @@ div i{
     position: absolute;
     bottom: 110px;
     left: 10px;
-    /* width: 50px; */
     padding: 2px;
 }
 .label-3{
@@ -91,12 +95,11 @@ div i{
     position: absolute;
     bottom: 110px;
     left: 65px;
-    /* width: 50px; */
     padding: 2px;
 }
 .sosten{
     background-color: var(--green);
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     color: var(--white);
 
@@ -107,7 +110,7 @@ div i{
     width: 50px;
     background-color: var(--red);
     color: var(--white);
-    font-size: 15px;
+    font-size: 12px;
 } 
 .prezzi{
     padding: 0 10px;
@@ -136,4 +139,12 @@ div i{
 }  */
 .col:hover .heart{
     color: var(--red);
+}
+/* footer */
+footer{
+    background-color: blue;
+}
+footer section{
+    color: var(--white);
+    padding: 25px 0;
 }
