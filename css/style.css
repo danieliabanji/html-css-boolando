@@ -1,5 +1,139 @@
+/* utility */
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+:root{
+    --orange: orange;
+    --red: red;
+    --green: green;
+    --white: #ffffff;
+}
+
+
+/* general */
+/* navbar */
+header{
+    background-color: var(--orange) ;
+}
+.flexnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#logo{
+    height: 28px;
+    margin: 15px;
+}
+div i{
+    padding: 3px;
+    color: #ffffff;
+}
+/* fine navbar */
+
+/* main */
+
+
+.card-flex{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.col{
+    width: calc(100% / 3);
+    position: relative;
+
+}
+.col img{
+    width: 100%;
+    padding: 0 10px; 
+}
+
+.label{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    padding: 2px;
+}
+.heart{
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.label-2{
+    display: block;
+    position: absolute;
+    bottom: 110px;
+    left: 10px;
+    /* width: 50px; */
+    padding: 2px;
+}
+.label-3{
+    display: block;
+    position: absolute;
+    bottom: 110px;
+    left: 65px;
+    /* width: 50px; */
+    padding: 2px;
+}
+.sosten{
+    background-color: var(--green);
+    font-size: 15px;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.disc50{
+    text-align: center;
+    width: 50px;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 15px;
+} 
+.prezzi{
+    padding: 0 10px;
+}
+.prezzo-scontato{
+    color: var(--red);
+}
+.prezzo{
+    margin-left: 5px;
+    color: black;
+    text-decoration: line-through;
+}
+.col p{
+    font-size: 15px;
+}
+
+
+
+/* .heart{
+     position: absolute;
+    bottom: 30px;
+    text-align: center;
+    color: var(--red);
+     width: 100%;
+    display: none;
+}  */
+.col:hover .heart{
+    color: var(--red);
 }
