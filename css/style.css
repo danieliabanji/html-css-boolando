@@ -10,10 +10,11 @@
     max-width: 1170px;
 }
 :root{
-    --orange: orange;
+    --orange: #ff6900;
     --red: red;
     --green: green;
     --white: #ffffff;
+    --black: #1a1a1a;
 }
 
 
@@ -33,7 +34,7 @@ ul{
     list-style: none;
 }
 ul li a{
-    padding: 5px;
+    padding: 5px 5px 5px 0px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -54,6 +55,7 @@ div i{
     background-color: var(--orange);
     height: 50px;
     z-index: 5;
+    box-shadow: 0px 1px 5px -1px var(--black);
 }
 /* fine navbar */
 
@@ -139,7 +141,7 @@ main{
 }
 
 
-.col:hover .heart{
+.cuore:hover .heart{
     color: var(--red);
 }
 .second{
@@ -153,7 +155,7 @@ main{
 }
 /* footer */
 footer{
-    background-color: blue;
+    background-color: var(--black);
 }
 footer section{
     color: var(--white);
